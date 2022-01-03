@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="약 검색" />
+    <item
+        android:id="@+id/page1Fragment"
+        android:title="약 종류" />
+    <item
+        android:id="@+id/page2Fragment"
+        android:title="알림설정" />
+    <item
+        android:id="@+id/endFragment"
+        android:title="약 폐기법" />
+
+</menu>

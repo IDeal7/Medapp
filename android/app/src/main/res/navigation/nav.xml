@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.medapp.HomeFragment"
+        android:label="medapp" />
+    <fragment
+        android:id="@+id/page1Fragment"
+        android:name="com.example.medapp.Page1Fragment"
+        android:label="medapp" />
+    <fragment
+        android:id="@+id/page2Fragment"
+        android:name="com.example.medapp.Page2Fragment"
+        android:label="medapp" />
+    <fragment
+        android:id="@+id/endFragment"
+        android:name="com.example.medapp.EndFragment"
+        android:label="medapp" />
+</navigation>
